@@ -4,8 +4,8 @@
     <title>温度增量（开发中）</title>
     <meta charset="utf-8">
     <script src="break_eternity.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body style="background-color:black;color:white">
     <p>当前温度:<span style="font-size:35px" id="temper">0</span>°K</p>
@@ -16,7 +16,7 @@
       <button onclick="tab1()" style="font-size:18px">加热器</button>
       <button onclick="tab2()" style="font-size:18px">设置</button>
     </div>
-    <div id="t1">
+    <div id="t1" class="normalTab">
     <p>你有<span id="hot1">0</span>加热器·I
 <button onclick="buyHot(1)" class="hot">购买</button></p>
         <p>你有<span id="hot2">0</span>加热器·II
@@ -35,7 +35,7 @@
 <button onclick="buyHot(8)" class="hot">购买</button></p>
     <br>
     </div>
-    <div id="t2">
+    <div id="t2" class="hiddenTab">
       <p>没有什么可以设置的东西………</p>
     </div>
     <a href="/incremental-temperature/changelog.html">更新日志</a>
