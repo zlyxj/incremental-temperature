@@ -9,6 +9,6 @@ document.getElementById("t1").className="normalTab"
 document.getElementById("t2").className="hiddenTab"
 }
 function tab2(){
-document.getElementById("t1").className="normalTab"
-document.getElementById("t2").className="hiddenTab"
+document.getElementById("t2").className="normalTab"
+document.getElementById("t1").className="hiddenTab"
 }
