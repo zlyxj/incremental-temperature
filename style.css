@@ -6,3 +6,9 @@ button{
   color:black;
   font-family:"Verdana",monospace;
 }
+.hiddenTab{
+  display:none;
+}
+.normalTab{
+  display:block;
+}
